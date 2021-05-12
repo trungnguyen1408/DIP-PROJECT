@@ -212,7 +212,7 @@ Trên những cơ sở đó, mục tiêu của nhóm khi lên kế hoạch tìm 
 \subsection{Lựa chọn không gian màu}
 
 \subsubsection{Không gian màu RGB}
-Hầu hết khi làm việc với ảnh số (\textit{digital image}), ta sẽ thao tác với ảnh \textbf{RGB}, tức ảnh có 3 kênh màu đỏ-lục-lam (\textit{red-green-blue}). Mỗi điểm ảnh (\textit{pixel}) sẽ có 3 giá trị \textbf{R-G-B}, mỗi giá trị là một số nguyên nằm trong đoạn $[0, 255]$, tương ứng với 3 kênh màu để tạo nên được màu sắc của điểm ảnh đó.
+Hầu hết khi làm việc với ảnh số (\textit{dial image}), ta sẽ thao tác với ảnh \textbf{RGB}, tức ảnh có 3 kênh màu đỏ-lục-lam (\textit{red-green-blue}). Mỗi điểm ảnh (\textit{pixel}) sẽ có 3 giá trị \textbf{R-G-B}, mỗi giá trị là một số nguyên nằm trong đoạn $[0, 255]$, tương ứng với 3 kênh màu để tạo nên được màu sắc của điểm ảnh đó.
 
 \begin{figure}[h!]
 \centering
@@ -412,9 +412,9 @@ pip install fastai --upgrade
 \noindent
 Toàn bộ mã nguồn, cũng như những tệp liên quan trong quá trình hoàn thành mô hình có thể tìm thấy tại:
 \begin{itemize}
-    \item Github: \href{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}
+    \item github: \href{https://github.com/trungnguyen1408/DIP-PROJECT}{https://github.com/trungnguyen1408/DIP-PROJECT}
 \end{itemize}
-Để có thể biết được đầy đủ những thư viện cũng như phiên bản thư viện được sử dụng, tham khảo tệp tin \texttt{requirements.txt}\footnote{Được chứa trong thư mục \href{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}} trong đường dẫn phía trên.
+Để có thể biết được đầy đủ những thư viện cũng như phiên bản thư viện được sử dụng, tham khảo tệp tin \texttt{requirements.txt}\footnote{Được chứa trong thư mục \href{https://github.com/trungnguyen1408/DIP-PROJECT}{https://github.com/trungnguyen1408/DIP-PROJECT}} trong đường dẫn phía trên.
 
 \subsection{Tập dữ liệu}
 Tập dữ liệu được nhóm chọn sử dụng là tập \href{https://cocodataset.org/#download}{\textbf{COCO}} có trong thư viện \textbf{fastai}, ta có thể dễ dàng tải về. Nhóm quyết định chọn $10,000$ ảnh để huấn luyện, còn quá trình xác thực sẽ là $2,000$.\\
@@ -505,7 +505,7 @@ Thêm một lưu ý ở đây là ở khối tích chập \texttt{C512} thì s�
 Với kiến trúc như trên, ta sẽ được vùng nhận thức $N \times N$ là $70 \times 70$. Đây là vùng nhận thức có kết quả thực nghiệm tốt nhất mà bài báo \textbf{pix2pix} đã chỉ ra.
 
 \noindent
-Để tính kích thước vùng nhận thức ở tầng thứ $l$ bất kì thì ta sẽ có công thức:\footnote{Github - phillipi, ``receptive\_field\_sizes.m'', \href{https://github.com/phillipi/pix2pix/blob/master/scripts/receptive\_field\_sizes.m}{https://github.com/phillipi/pix2pix/blob/master/scripts/receptive\_field\_sizes.m}}
+Để tính kích thước vùng nhận thức ở tầng thứ $l$ bất kì thì ta sẽ có công thức:\footnote{github - phillipi, ``receptive\_field\_sizes.m'', \href{https://github.com/phillipi/pix2pix/blob/master/scripts/receptive\_field\_sizes.m}{https://github.com/phillipi/pix2pix/blob/master/scripts/receptive\_field\_sizes.m}}
 \begin{align*}
     K_{l-1} = K + s_{l-1}(K_{l} - 1)
 \end{align*}
@@ -664,7 +664,7 @@ Sau quá trình tìm hiểu và hoàn thành đề tài, bản thân nhóm đã 
 Đề tài có thể được áp dụng để làm những tác vụ liên quan đến phục chế màu cho ảnh xám, bị mất màu hoặc ảnh cũ, thời chiến tranh. Giúp cho quá trình phục chế được tiết kiệm thời gian. Kết hợp với tinh chỉnh bằng phương pháp thủ công, ta hoàn toàn có thể có những kết quả phục chế đẹp đẽ và cũng nhanh chóng.\\
 
 \noindent
-Không chỉ dừng lại ở hình ảnh, ta cũng có thể áp dụng mô hình để phục chế màu cho các video, vì bản chất một video là sự kết hợp từ nhiều khung hình (\textit{frame}) ghép lại. Trong thư mục \texttt{test\_results}\footnote{Được chứa trong thư mục \href{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}{https://github.com/dee-ex/EE3151\_SEM202\_PROJECT}} có kết quả thử nghiệm của mô hình qua việc phục chế màu một đoạn nhỏ về một phóng sự về chiến tranh ở Việt Nam.
+Không chỉ dừng lại ở hình ảnh, ta cũng có thể áp dụng mô hình để phục chế màu cho các video, vì bản chất một video là sự kết hợp từ nhiều khung hình (\textit{frame}) ghép lại. Trong thư mục \texttt{test\_results}\footnote{Được chứa trong thư mục \href{https://github.com/trungnguyen1408/DIP-PROJECT}{https://github.com/trungnguyen1408/DIP-PROJECT}} có kết quả thử nghiệm của mô hình qua việc phục chế màu một đoạn nhỏ về một phóng sự về chiến tranh ở Việt Nam.
 
 \begin{figure}[h!]
 \centering
