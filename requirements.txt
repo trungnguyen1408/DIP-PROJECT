@@ -1,0 +1,7 @@
+numpy==1.19.5
+matplotlib==3.2.2
+skimage==0.16.2
+torch==1.8.1+cu101
+fastai==2.3.1
+tqdm=4.41.1
+cv2=4.1.2
