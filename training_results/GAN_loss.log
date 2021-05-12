@@ -1,0 +1,139 @@
+loss_D_fake: 0.6099
+loss_D_real: 0.6077
+loss_D: 0.6088
+loss_G_GAN: 1.0411
+loss_G_L1: 7.8034
+loss_G: 8.8445
+
+loss_D_fake: 0.6208
+loss_D_real: 0.6175
+loss_D: 0.6191
+loss_G_GAN: 1.0121
+loss_G_L1: 7.9047
+loss_G: 8.9169
+
+loss_D_fake: 0.6286
+loss_D_real: 0.6339
+loss_D: 0.6313
+loss_G_GAN: 0.9636
+loss_G_L1: 7.5737
+loss_G: 8.5373
+
+loss_D_fake: 0.6270
+loss_D_real: 0.6430
+loss_D: 0.6350
+loss_G_GAN: 0.9390
+loss_G_L1: 7.2921
+loss_G: 8.2311
+
+loss_D_fake: 0.6323
+loss_D_real: 0.6390
+loss_D: 0.6357
+loss_G_GAN: 0.9279
+loss_G_L1: 7.0518
+loss_G: 7.9797
+
+loss_D_fake: 0.6369
+loss_D_real: 0.6434
+loss_D: 0.6401
+loss_G_GAN: 0.9076
+loss_G_L1: 6.8427
+loss_G: 7.7504
+
+loss_D_fake: 0.6405
+loss_D_real: 0.6442
+loss_D: 0.6423
+loss_G_GAN: 0.8952
+loss_G_L1: 6.6307
+loss_G: 7.5259
+
+loss_D_fake: 0.6457
+loss_D_real: 0.6462
+loss_D: 0.6460
+loss_G_GAN: 0.8789
+loss_G_L1: 6.4580
+loss_G: 7.3369
+
+loss_D_fake: 0.6466
+loss_D_real: 0.6534
+loss_D: 0.6500
+loss_G_GAN: 0.8688
+loss_G_L1: 6.3052
+loss_G: 7.1740
+
+loss_D_fake: 0.6493
+loss_D_real: 0.6505
+loss_D: 0.6499
+loss_G_GAN: 0.8604
+loss_G_L1: 6.1559
+loss_G: 7.0163
+
+loss_D_fake: 0.6508
+loss_D_real: 0.6531
+loss_D: 0.6520
+loss_G_GAN: 0.8516
+loss_G_L1: 6.0159
+loss_G: 6.8675
+
+loss_D_fake: 0.6518
+loss_D_real: 0.6553
+loss_D: 0.6536
+loss_G_GAN: 0.8439
+loss_G_L1: 5.8815
+loss_G: 6.7254
+
+loss_D_fake: 0.6529
+loss_D_real: 0.6566
+loss_D: 0.6548
+loss_G_GAN: 0.8389
+loss_G_L1: 5.7660
+loss_G: 6.6049
+
+loss_D_fake: 0.6548
+loss_D_real: 0.6571
+loss_D: 0.6559
+loss_G_GAN: 0.8343
+loss_G_L1: 5.6240
+loss_G: 6.4583
+
+loss_D_fake: 0.6553
+loss_D_real: 0.6587
+loss_D: 0.6570
+loss_G_GAN: 0.8294
+loss_G_L1: 5.5419
+loss_G: 6.3713
+
+loss_D_fake: 0.6559
+loss_D_real: 0.6593
+loss_D: 0.6576
+loss_G_GAN: 0.8279
+loss_G_L1: 5.4321
+loss_G: 6.2601
+
+loss_D_fake: 0.6571
+loss_D_real: 0.6602
+loss_D: 0.6587
+loss_G_GAN: 0.8232
+loss_G_L1: 5.3208
+loss_G: 6.1440
+
+loss_D_fake: 0.6582
+loss_D_real: 0.6601
+loss_D: 0.6592
+loss_G_GAN: 0.8178
+loss_G_L1: 5.2121
+loss_G: 6.0299
+
+loss_D_fake: 0.6585
+loss_D_real: 0.6611
+loss_D: 0.6598
+loss_G_GAN: 0.8178
+loss_G_L1: 5.1147
+loss_G: 5.9325
+
+loss_D_fake: 0.6574
+loss_D_real: 0.6643
+loss_D: 0.6608
+loss_G_GAN: 0.8143
+loss_G_L1: 5.0598
+loss_G: 5.8741
